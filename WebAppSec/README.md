@@ -30,5 +30,5 @@
 
 - What I learnt:
   - Play around with the web application and get to learn how to identify each vulnerability.
-  - Double quotes and single quotes are the best way to get started when injection.
+  - Double quotes and single quotes are the best way to get started when injecting.
   - Error codes should be your best friend.
