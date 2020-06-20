@@ -17,7 +17,7 @@
   - [Directory Traversal vulnerability](Attacks/DirectoryTraversal.md)
   - [File Include vulnerability](Attacks/FileInclude.md)
   - [LDAP vulnerability](Attacks/LDAP.md)
-  - [Mongo DB Injection vulnerability](Attacks/MongoDB.md)
+  - [Mongo DB Injection vulnerability](Attacks/MongoBD.md)
   - [Open Redirect vulnerability](Attacks/OpenRedirect.md)
   - [SQL Injection vulnerability](Attacks/SQL.md)
   - [Server Side Request Forgery vulnerability](Attacks/SSRF.md)
