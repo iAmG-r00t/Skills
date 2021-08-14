@@ -1,4 +1,4 @@
-# :owl: OwL Mode :owl:
+# 🦉 OwL Mode 🦉
 
-1. [Web Application Security](WebAppSec/README.md) :spider:
-2. [Mobile Application Development](AppDev/) :beetle: *(not-yet-submited)*
+1. [Web Application Security](./WebAppSec) 🕸
+2. [Hack The Virtual Memory] (./HackTheVM) 🐛
