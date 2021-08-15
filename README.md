@@ -1,4 +1,4 @@
 # 🦉 OwL Mode 🦉
 
 1. [Web Application Security](./WebAppSec) 🕸
-2. [Hack The Virtual Memory] (./HackTheVM) 🐛
+2. [Hack The Virtual Memory](./HackTheVM) 🐛
