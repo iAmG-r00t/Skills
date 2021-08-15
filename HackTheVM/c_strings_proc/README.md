@@ -15,4 +15,4 @@
 	- Run the compiled program `loop` and then execute this to look into the program inside the `/proc` folder: `ps aux | grep -m 1 loop | cut -d' ' -f5 | xargs -I % ls -la /proc/%/`
 	- Do note that if you are following along with the resource from holberton, they state that the **PID** will keep changing but on my end I have noticed it is not changing because the program is running in a loop hence the process ID is still the same until you end the process.
 
-	![image](https://user-images.githubusercontent.com/29776892/129325840-2f4e2a29-21cc-4d9b-b591-b67b8ac43244.png)
+	  ![image](https://user-images.githubusercontent.com/29776892/129325840-2f4e2a29-21cc-4d9b-b591-b67b8ac43244.png)
