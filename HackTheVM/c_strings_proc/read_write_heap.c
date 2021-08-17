@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 	printf("[+] maps: /proc/%d/mem\n", pid);
 
 	sprintf(maps_file, "/proc/%d/maps", pid);/*get maps file*/
-	FILE *maps = fopen(maps_file, "r"); /*read file*/
+	FILE *maps = fopen(maps_file, "r"); /*open file in read mode*/
 
 	if (maps == NULL)
 	{
@@ -162,9 +162,25 @@ int main(int argc, char *argv[])
 	}
 
 	sprintf(mem_file, "/proc/%d/mem", pid); /*get mem file*/
-	FILE *mem = fopen(mem_file, "r"); /*read file*/
+	FILE *mem = fopen(mem_file, "rb+"); /*open binary file in read and write mode*/
 
-	/*read heap*/
+	if (mem == NULL)
+	{
+		printf("[ERROR] Can not open file mem %p\n", mem);
+		fprintf(stderr, "        I/O error (%s)\n", strerror(errnum));
+		exit(1);
+	}
+
+	fseek(mem, start_addr, SEEK_SET);/*move file position to start_addr*/
+
+	while (fgets(line, end_addr - start_addr, mem))
+	{
+		if ((strstr(line, search_string)) != NULL) /*testing this*/
+		{
+			printf("String found\n");
+		}
+	}
+
 
 	return (0);
 }
