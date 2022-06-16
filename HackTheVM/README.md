@@ -4,4 +4,4 @@ Hello, we are going to hack the virtual memory for running processes. I found a 
 - So here I am learning about virtual memory. 😅 The repository won't contain everything, just the code because I don't want to duplicate already existing content.
 - Also if you want to learn C please do visit this [repository](https://github.com/iAmG-r00t/alx-low_level_programming/).
 
-00. [C strings & `/proc`](./c_strings_proc)
+x00. [C strings & `/proc`](./c_strings_proc)
