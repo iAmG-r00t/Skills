@@ -1,0 +1,3 @@
+Well, well, well, we are learning Python
+Nemesis: Gr00t, are you enjoying it?
+Gr00t: Yes I am, very much indeed.

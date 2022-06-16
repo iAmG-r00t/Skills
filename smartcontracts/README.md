@@ -4,6 +4,8 @@
 
 > [Cryptocurrency class 2022](https://cryptocurrencyclass.github.io/) coding challenges by Patrick McCorry
 
+**NOTICE:** PAUSE in effect, have so much on my plate. Will come back to it later on.
+
 <details>
 <summary><a href="https://cryptocurrencyclass.github.io/tutorial1.pdf">Turotial 1: A global and censorship-resistant "hello world"</a></summary><br>
 
